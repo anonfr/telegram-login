@@ -61,6 +61,10 @@ app.post('/api/save-otp', async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Telegram Login API is running');
+});
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
