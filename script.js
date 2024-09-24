@@ -79,3 +79,5 @@ document.getElementById('otp-form').addEventListener('submit', function(event) {
         });
     }
 });
+
+const API_URL = 'https://telegram-login-r7fo.onrender.com';
