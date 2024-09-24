@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.telegram-login-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Change from 400px to 100% */
+    max-width: 400px; /* Add this line */
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box; /* Add this line */
+}
+
+.telegram-logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.telegram-login-box h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.telegram-login-box p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    max-width: 100%; /* Add this line */
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group select,
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    box-sizing: border-box; /* Add this line */
+    max-width: 100%; /* Add this line */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0088cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    max-width: 100%; /* Add this line */
+}
+
+button:hover {
+    background-color: #0077b5;
+}
+
+.error-message {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+input.error {
+    border-color: red;
+}
+
+.telegram-footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.telegram-footer a {
+    color: #0088cc;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.telegram-footer a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+.resend {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.resend a {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+.resend a:hover {
+    text-decoration: underline;
+}
